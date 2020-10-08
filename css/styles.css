@@ -10,3 +10,8 @@
 .aboutUs{
     text-align: center;
 }
+.contacts{
+    background-image: url(../images/c_image.jpg);
+    height: 500px;
+
+}
