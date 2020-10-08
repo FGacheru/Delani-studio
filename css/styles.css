@@ -13,5 +13,15 @@
 .contacts{
     background-image: url(../images/c_image.jpg);
     height: 500px;
+  
 
+}
+/* .icons{
+    padding-right: 50%;
+} */
+.forms{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
 }
