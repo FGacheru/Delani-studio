@@ -5,6 +5,7 @@
 .services{
     background-image: url(../images/b_image.jpg);
     height: 200px;
+    color: white;
 }
 .aboutUs{
     text-align: center;
