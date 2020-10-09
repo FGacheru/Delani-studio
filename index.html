@@ -8,6 +8,8 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Delani-studio</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 </head>
 
 <body class="container">
@@ -35,84 +37,88 @@
             The outcome of the scoping session is a proposal or high-level statement of work. Based on your
             requirements, we can provide a complete offering or just the pieces you need.</p> -->
     </div>
-    <h3>WHAT WE DO.</h3>
+    <span class="h2"><h3>WHAT WE DO.</h3></span>
+    <div class="dev">
     <div class="row">
         <div class="col-md-4">
-            <img src="./images/design_icon.png" alt="">
+           <span id="img1"><img src="./images/design_icon.png" alt=""></span>
+           <p>DESIGN</p>
+           <span id="p1">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+            Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</span>
         </div>
         <div class="col-md-4">
             <img src="./images/dev_icon.png" alt="">
+            <p>DEVELOPMENT</p>
         </div>
         <div class="col-md-4">
             <img src="./images/product_icon.png" alt="">
+            <span class="par"><p>PRODUCT MANAGEMENT</p></span>
+
         </div>
 
-
+    </div>
     </div>
     <div id="portifolio">
-        <h2>PORTIFOLIO</h2>
+       <span class="h2"><h2>PORTIFOLIO</h2></span>
         <div class="row">
             <div class="col-md-3">
-                <img src="./images/work1.jpg" alt="">
+                <img src="./images/work1.jpg" alt="" width="200px">
             </div>
             <div class="col-md-3">
-                <img src="./images/work2.jpg" alt="">
+                <img src="./images/work2.jpg" alt="" width="200px">
             </div>
             <div class="col-md-3">
-                <img src="./images/work3.jpg" alt="">
+                <img src="./images/work3.jpg" alt="" width="200px">
             </div>
             <div class="col-md-3">
-                <img src="./images/work4.jpg" alt="">
+                <img src="./images/work4.jpg" alt="" width="200px">
+            </div>
+        </div>
+            <div class="row" style="padding-top: 20px;">
+            <div class="col-md-3">
+                <img src="./images/work5.jpg" alt="" width="200px">
             </div>
             <div class="col-md-3">
-                <img src="./images/work5.jpg" alt="">
+                <img src="./images/work6.jpg" alt="" width="200px">
             </div>
             <div class="col-md-3">
-                <img src="./images/work6.jpg" alt="">
+                <img src="./images/work7.jpg" alt="" width="200px">
             </div>
             <div class="col-md-3">
-                <img src="./images/work7.jpg" alt="">
-            </div>
-            <div class="col-md-3">
-                <img src="./images/work8.jpg" alt="">
+                <img src="./images/work8.jpg" alt="" width="200px">
             </div>
         </div>
         <form>
+            <br>
             <div class="contacts">
-                <h2>CONTACT US</h2>
+               <span class="h2"><h2>CONTACT US</h2></span>
                 <div class="forms">
-                <div class="row">
-                    <div class="col-md-6">
-                        <input type="text" class="form-control" placeholder="First name">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Name...">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Email...">
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <input type="text" class="form-control" placeholder="Last name">
+                    <div class="form-group" class="col-md-4">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="10" id="message" placeholder="Your message here..."></textarea>
                     </div>
                 </div>
-                <div class="form-group" class="col-md-4">
-                    <label for="comment">Comment:</label>
-                    <textarea class="form-control" rows="10" id="comment"></textarea>
-                </div>
-            </div>
         </form>
     </div>
     <div class="icons">
         <div class="row">
+            <img src="./images/twitter.png" alt="">
+            <img src="./images/dribble.png" alt="">
+            <img src="./images/facebook.png" alt="">
+            <img src="./images/g_plus.png" alt="">
+            <img src="./images/skype.png" alt="">
+            <img src="./images/stumble_upon.png" alt="">
             <img src="./images/behance.png" alt="">
             <img src="./images/flickr.png" alt="">
-            <img src="./images/facebook.png" alt="">
-            <img src="./images/dribble.png" alt="">
-            <img src="./images/g_plus.png" alt="">
-            <img src="./images/pinterest.png" alt="">
-            <img src="./images/skype.png" alt="">
-            <img src="./images/twitter.png" alt="">
-            <img src="./images/stumble_upon.png" alt="">
-            <img src="./images/you_tube.png" alt="">
-
-
-
-        </div>
-
+             </div>
 
     </div>
 
@@ -120,7 +126,9 @@
 
 
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="./js/scripts.js"></script>
 </body>
 
 </html>
