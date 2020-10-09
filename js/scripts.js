@@ -2,5 +2,10 @@ $(Document).ready(function(){
 $("#img1").click(function(){
 $("#p1").toggle("slow");
 });
-
+$("#img2").click(function(){
+$("#p2").toggle("slow");
+});
+$("#img3").click(function(){
+ $("#p3").toggle("slow");   
+});
 });
