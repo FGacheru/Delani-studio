@@ -43,6 +43,19 @@ $(document).ready(function () {
       $(this).find(".p5").toggle();
       $(this).find(".p6").toggle();
       $(this).find(".p7").toggle();
+  }); 
+});
+
+$(document).ready(function(){
+  $(".p8").hide();
+  $(".p9").hide();
+  $(".p10").hide();
+  $(".p11").hide();
+  $(".img5").hover(function(){
+      $(this).find(".p8").toggle();
+      $(this).find(".p9").toggle();
+      $(this).find(".p10").toggle();
+      $(this).find(".p11").toggle();
+
   });
- 
 });
