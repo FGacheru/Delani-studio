@@ -18,11 +18,10 @@ $("button").click(function () {
     if (name === "") {
       alert("Please Insert your name")
     } else 
-
-        if(email === ""){
+         if(email === ""){
         alert("Enter your Email")
     }else 
-    if(message === "") {
+       if(message === "") {
       alert("Please insert your message!")
     }else {
        alert(' Dear ' + name + ' we have received your message successfully. ' + ' Feel free to reach out to us at anytime');
