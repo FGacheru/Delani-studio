@@ -11,25 +11,24 @@ $("#img3").click(function(){
 });
 
 
-// $(Document).ready(function(){
-//     $("#img4").mouseover(function(){
-//     $("p4").css("opacity:1")    
-//     })
-//     $("#img4").mouseout(function(){
-//         $("p4").css("opacity:1")    
-//         })
-// })
-
-// $(".card").hover(function () {
-//     $(this).children(".card-1").fadeToggle(1000, "linear");
-//   });
-
-
 $("button").click(function () {
-    var client = document.getElementById('details').value;
-    alert(' Dear ' + client + ' we have received your message successfully. ' + ' Feel free to reach out to us at anytime');
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+    if (name === "") {
+      alert("Please Insert your name")
+    } else 
 
+        if(email === ""){
+        alert("Enter your Email")
+    }else 
+    if(message === "") {
+      alert("Please insert your message!")
+    }else {
+       alert(' Dear ' + name + ' we have received your message successfully. ' + ' Feel free to reach out to us at anytime');
+    }
   });
+ 
 
   
   
