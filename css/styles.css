@@ -217,18 +217,21 @@ body{
       }
       #name{
           background-color: transparent;
+          color: white;
       }
       #name::placeholder{
           color: white;
       }
       #email{
           background-color: transparent;
+          color: white;
       }
       #email::placeholder{
         color: white;
       }
       #message{
           background-color: transparent;
+          color: white;
       }
       #message::placeholder{
         color: white;

@@ -1,9 +1,5 @@
 # Delani studio
-#### This project interlinks clients to software developers.It was created on 12/10/2020.
-## Author
-By  Francis Gacheru.
-## Description of Delani studio
- This project is a web application for Delani studio that shows details about the services it offers, has information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios.
+#### This project interlinks clients to software developers.It was created on 12ion for Delani studio that shows details about the services it offers, has information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios.
 ## project Set up Instructions
 * Ctrl + alt + t to open the terminal
 * now git clone https://github.com/FGacheru/Delani-studio
